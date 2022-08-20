@@ -12,10 +12,10 @@ Here's tutorial:[ROS Tutotial EN](http://wiki.ros.org/ROS/Tutorials) and [ROS Tu
 
 
 # Step 003: Implement that offboard example on your own:
-Please check the site: [PX4 offboard example](https://docs.px4.io/main/en/ros/mavros_offboard_python.html)
-Prerequisites are MAVROS ROS and Python basics.
-The topics can be found in [MAVROS Topics](http://wiki.ros.org/mavros)
-GAAS tutorial E01, which is an optional is also a good choice for implementing offboard example.
+Please check the site: [PX4 offboard example](https://docs.px4.io/main/en/ros/mavros_offboard_python.html). 
+Prerequisites are MAVROS ROS and Python basics. 
+The topics can be found in [MAVROS Topics](http://wiki.ros.org/mavros). 
+GAAS tutorial E01, which is an optional is also a good choice for implementing offboard example. 
 GAAS E01 ->[GAAS E01](https://gaas.gitbook.io/guide/software-realization-build-your-own-autonomous-drone/wu-ren-ji-zi-dong-jia-shi-xi-lie-offboard-kong-zhi-yi-ji-gazebo-fang-zhen)
 
 
