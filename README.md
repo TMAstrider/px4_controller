@@ -19,9 +19,12 @@ GAAS tutorial E01, which is an optional is also a good choice for implementing o
 GAAS E01 ->[GAAS E01](https://gaas.gitbook.io/guide/software-realization-build-your-own-autonomous-drone/wu-ren-ji-zi-dong-jia-shi-xi-lie-offboard-kong-zhi-yi-ji-gazebo-fang-zhen)
 
 
-# Step 004: Write your own ROS Node to control your UAV whatever you want
+# Step 004: Write your own ROS Node to control your UAV however you want
 Supposing that GAAS had written an API for controlling PX4, I guess you must make sure that you totally understand how subscriber, publisher, and topics work and make some changes to python file `px4_mavros_run.py` and `commander.py`.
 
+
+# Step 005 : Write your own ROS Node to implement the UAV tracking Node which contains a bunch of subscribers publishers, and an important callback Function.(Both Python and C++ are allowed )
+You can simply check the c++ file above for your reference.
 
 # Step 006: Make sure that you have Yolov5 Environment Set Up!
 If not, please check: [YOLOv5](https://github.com/ultralytics/yolov5)
