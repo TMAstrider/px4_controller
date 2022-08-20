@@ -6,6 +6,9 @@ This is the source code that was created for autonomous delivery and cv detectio
 If not, please check the site: [XTDrone Manual](https://www.yuque.com/xtdrone/manual_cn)
 
 # Step 002: Make sure that you have ROS basics 
+Here's tutorial:[ROS Tutotial EN](http://wiki.ros.org/ROS/Tutorials) and [ROS Tutorial CN](http://wiki.ros.org/cn/ROS/Tutorials)
+
+
 
 
 # Step 003: Implement that offboard example on your own:
