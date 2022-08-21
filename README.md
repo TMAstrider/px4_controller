@@ -3,7 +3,7 @@ This is the source code that was created for autonomous delivery and cv detectio
 
 
 # Step 001: Make sure that you have the PX4, GAZEBO, ROS, MAVROS simulation environment set up!
-If not, please check the site: [XTDrone Manual](https://www.yuque.com/xtdrone/manual_cn). You can check XTDrone Environment Set Up for More infomation. XD
+If not, please check the site: [FYR: this is the main material that you will need](https://dgzc.ganahe.top/ganahe/2021/uavgazebomoni.html) and [XTDrone Manual(optional)](https://www.yuque.com/xtdrone/manual_cn). You can check XTDrone Environment Set Up for More infomation. XD
 
 # Step 002: Make sure that you have ROS basics 
 Here's tutorial:[ROS Tutotial EN](http://wiki.ros.org/ROS/Tutorials) and [ROS Tutorial CN](http://wiki.ros.org/cn/ROS/Tutorials). 
