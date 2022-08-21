@@ -23,10 +23,13 @@ GAAS E01 ->[GAAS E01](https://gaas.gitbook.io/guide/software-realization-build-y
 Supposing that GAAS had written an API for controlling PX4, I guess you must make sure that you totally understand how subscriber, publisher, and topics work and make some changes to python file `px4_mavros_run.py` and `commander.py`.
 
 
-# Step 005 : Write your own ROS Node to implement the UAV tracking Node which contains a bunch of subscribers publishers, and an important callback Function.(Both Python and C++ are allowed )
+# Step 005 : Write your own ROS Node to implement the UAV tracking Node which contains a bunch of subscribers publishers, and an important callback Function.(Both Python and C++ are allowed ) (This part is a simulation)
 You can simply check the c++ file above for your reference.
 
 # Step 006: Make sure that you have Yolov5 Environment Set Up!
-If not, please check: [YOLOv5](https://github.com/ultralytics/yolov5)
+If not, please check: [YOLOv5](https://github.com/ultralytics/yolov5). 
+if you have detect.py run, then you can go to Step 007.
 
-#
+# Step 007: Integrate ROS with YOLOv5
+please make sure that you can handle the things above and continue this part.
+You will have your UAC camera, which is the frontend of you computer, running, and check [this repository](https://github.com/qianmin/yolov5_ROS). GOOD LUCK!
