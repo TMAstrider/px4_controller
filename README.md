@@ -3,10 +3,10 @@ This is the source code that was created for autonomous delivery and cv detectio
 
 
 # Step 001: Make sure that you have the PX4, GAZEBO, ROS, MAVROS simulation environment set up!
-If not, please check the site: [XTDrone Manual](https://www.yuque.com/xtdrone/manual_cn)
+If not, please check the site: [XTDrone Manual](https://www.yuque.com/xtdrone/manual_cn). You can check XTDrone Environment Set Up for More infomation. XD
 
 # Step 002: Make sure that you have ROS basics 
-Here's tutorial:[ROS Tutotial EN](http://wiki.ros.org/ROS/Tutorials) and [ROS Tutorial CN](http://wiki.ros.org/cn/ROS/Tutorials)
+Here's tutorial:[ROS Tutotial EN](http://wiki.ros.org/ROS/Tutorials) and [ROS Tutorial CN](http://wiki.ros.org/cn/ROS/Tutorials). 
 
 
 
@@ -33,3 +33,6 @@ if you have detect.py run, then you can go to Step 007.
 # Step 007: Integrate ROS with YOLOv5
 please make sure that you can handle the things above and continue this part.
 You will have your UAC camera, which is the frontend of you computer, running, and check [this repository](https://github.com/qianmin/yolov5_ROS). GOOD LUCK!
+
+
+# Step 008: Write your own Callback Function which sends the diffs 
