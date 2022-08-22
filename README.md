@@ -24,7 +24,7 @@ Supposing that GAAS had written an API for controlling PX4, I guess you must mak
 
 
 # Step 005 : Write your own ROS Node to implement the UAV tracking Node which contains a bunch of subscribers publishers, and an important callback Function.(Both Python and C++ are allowed ) (This part is a simulation)
-You can simply check the c++ file above for your reference.
+You can simply check the c++ file above for your reference. You cna refer to this [blog](https://blog.liujiawei.xyz/2021/10/23/PX4%E6%97%A0%E4%BA%BA%E6%9C%BA-Gazebo%E4%BB%BF%E7%9C%9F%E5%AE%9E%E7%8E%B0%E7%A7%BB%E5%8A%A8%E7%89%A9%E4%BD%93%E7%9A%84%E8%B7%9F%E8%B8%AA/#%E6%8E%A7%E5%88%B6%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%B7%9F%E8%B8%AA%E8%BF%90%E5%8A%A8%E5%B0%8F%E8%BD%A6)
 
 # Step 006: Make sure that you have Yolov5 Environment Set Up!
 If not, please check: [YOLOv5](https://github.com/ultralytics/yolov5). 
