@@ -101,8 +101,8 @@ class Px4Controller:
         self.err_y0 = self.err_y
         self.err_z0 = self.err_z
 
-        print('DEBUG: err_x = ', self.err_x)
-        print('DEBUG: err_y = ', self.err_y)
+        # print('DEBUG: err_x = ', self.err_x)
+        # print('DEBUG: err_y = ', self.err_y)
 
         self.vel_x = self.adj_kp * self.err_x + self.adj_kd * self.err_x_err
         self.vel_y = self.adj_kp * self.err_y + self.adj_kd * self.err_y_err
@@ -113,9 +113,9 @@ class Px4Controller:
         self.vec.linear.z = self.vel_z
 
    
-        rospy.loginfo("Pose-x: {0}".format(self.local_pos.pose.position.x))
-        rospy.loginfo("Pose-y: {0}".format(self.local_pos.pose.position.y))
-        rospy.loginfo("Pose-z: {0}".format(self.local_pos.pose.position.z))
+        # rospy.loginfo("Pose-x: {0}".format(self.local_pos.pose.position.x))
+        # rospy.loginfo("Pose-y: {0}".format(self.local_pos.pose.position.y))
+        # rospy.loginfo("Pose-z: {0}".format(self.local_pos.pose.position.z))
 
 
 
