@@ -3,18 +3,11 @@
 #! /usr/bin/env python
 
 # from types import NoneType
-from itertools import zip_longest
-from re import X
-from turtle import pos, position
 import rospy
 from geometry_msgs.msg import PoseStamped 
 from geometry_msgs.msg import Twist
-from mavros_msgs.msg import State, PositionTarget
+from mavros_msgs.msg import State
 from mavros_msgs.srv import CommandBool, CommandBoolRequest, SetMode, SetModeRequest
-import time
-
-# current_state = State()
-
 
 class Px4Controller:
 
@@ -170,9 +163,7 @@ class Px4Controller:
                 
                     last_req = rospy.Time.now()
 
-            # self.local_pos_pub.publish(self.tar_pose)
             self.position_tele_pub.publish(self.tar_pose)
-            # self.vel_pub.publish(self.vec)
 
             rate.sleep()
 
@@ -189,9 +180,6 @@ class Px4Controller:
         return target_pose
 
 
-
-    # def move(self, x, y, z):
-    #     self.position_target_pub.publish(self.set_pose(x, y, z))
     def arm(self):
         if self.armService(True):
             return True
