@@ -74,9 +74,14 @@ if __name__ == "__main__":
     
     con = Commander()
     time.sleep(2)
-    con.move(0, 10, 2)
+    con.move(0, 4, 2)
     time.sleep(4)
-    con.move(10, 0, 1)
-    con.move(10, 10, 10)
+    con.move(4, 0, 1)
+    con.move(4, 4, 1)
+    time.sleep(4)
+    con.move(0, 0, 3)
+    time.sleep(2)
+    con.move(0, 0, 0)
+
 
 

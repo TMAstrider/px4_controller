@@ -4,6 +4,8 @@
 
 # from types import NoneType
 import rospy
+import sys
+import os
 from geometry_msgs.msg import PoseStamped 
 from geometry_msgs.msg import Twist
 from mavros_msgs.msg import State
@@ -110,7 +112,11 @@ class Px4Controller:
         # rospy.loginfo("Pose-y: {0}".format(self.local_pos.pose.position.y))
         # rospy.loginfo("Pose-z: {0}".format(self.local_pos.pose.position.z))
 
-
+    def isLanding(self, x, y, z):
+        if x == 0 and y == 0 and z == 0:
+            return True
+        else:
+            return False
 
 
     def start(self):
@@ -164,9 +170,15 @@ class Px4Controller:
                     last_req = rospy.Time.now()
 
             self.position_tele_pub.publish(self.tar_pose)
+            if self.isLanding(self.tar_pose.pose.position.x, self.tar_pose.pose.position.y, self.tar_pose.pose.position.z):
+                rospy.loginfo("Landing detected, Landing now!")
+                sys.exit()
+
 
             rate.sleep()
 
+    
+    
 
     '''
     construct a target_pose for publisher
